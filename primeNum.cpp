@@ -5,7 +5,7 @@ bool primeNum(int n)
 {
     for (int i = 2; i < n; i++)
     {
-        if (n%i==0)
+        if (n % i == 0)
         {
             return false;
         }
@@ -13,17 +13,17 @@ bool primeNum(int n)
     return true;
 }
 
-int main(){
+int main()
+{
     int n;
-    cin>>n;
+    cin >> n;
     bool isPrime = primeNum(n);
     if (isPrime)
     {
         cout << "The num is Prime" << endl;
     }
-    else{
+    else
+    {
         cout << "The num is not Prime" << endl;
     }
-    
-
 }

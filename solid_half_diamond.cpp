@@ -15,7 +15,7 @@ int main()
         // {
         //     cond = n - (i % n) - 2;
         // }
-        int cond = i < n ? i : n-(i%n)-2;  // To make the lines of code short
+        int cond = i < n ? i : n - (i % n) - 2; // To make the lines of code short
         for (int j = 0; j <= cond; j++)
         {
             cout << "*";

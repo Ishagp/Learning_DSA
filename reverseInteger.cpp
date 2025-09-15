@@ -24,9 +24,9 @@ int reverse_Int(int n)
         ans = ans * 10 + rem;
         n = n / 10;
     }
-    cout<<ans;
+    cout << ans;
 
-    return isNeg ? -ans: ans;
+    return isNeg ? -ans : ans;
 }
 
 int main()
@@ -34,5 +34,4 @@ int main()
     int n;
     cin >> n;
     reverse_Int(n);
-
 }
