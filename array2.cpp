@@ -12,7 +12,7 @@ int main()
     cout << "values are:" << endl;
     for (int i = 0; i < 3; i++)
     {
-        cout << 6*arr[i] << " ";  //printing array elements
+        cout << 10*arr[i] << " ";  //printing array elements
     }
     return 0;
 }
