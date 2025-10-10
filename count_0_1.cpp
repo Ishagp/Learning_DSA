@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0};
-    int size = 15;
+    int arr[] = {0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1};
+    int size = 14;
 
     int numZero = 0;
     int numOne = 0;
