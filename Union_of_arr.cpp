@@ -17,7 +17,7 @@ int main()
 
     for (int i = 0; i < sizeb; i++)
     {
-        ans.push_back(arr[i]);
+        ans.push_back(brr[i]);
     }
 
     for (int i = 0; i < ans.size(); i++)
