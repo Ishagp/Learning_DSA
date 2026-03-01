@@ -1,5 +1,9 @@
 // Rearrange array elements by signs 
 
+#include <iostream>
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
@@ -49,3 +53,22 @@ public:
         reverse(nums.begin()+ind+1, nums.end());
     }
 };
+
+
+// Leaders in an array
+
+vector<int> superiorElements(vector<int>&a){
+    vector<int> ans;
+    int maxi = INT_MIN;
+    int n = a.size();
+    for (int i = n-1; i >=0; i--)
+    {
+        if (a[i] > maxi)
+        {
+            ans.push_back(a[i]);
+        }
+        maxi = max(maxi, a[i]);
+    }
+    sort(ans.begin(), ans.end());
+    return ans;
+}
